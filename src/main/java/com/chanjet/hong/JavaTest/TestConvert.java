@@ -7,6 +7,7 @@ package com.chanjet.hong.JavaTest;
 import static org.junit.Assert.*;
 
 import java.util.Map;
+import java.util.Set;
 
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -14,6 +15,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.google.common.collect.Maps;
+import com.google.common.collect.Sets;
 
 /**
  *    
@@ -44,12 +46,26 @@ public class TestConvert {
 
 	@Test
 	public void test() {
-		Map<String,Object> test = Maps.newHashMap();
+		String aa ="@@bb";
+		assertEquals("bb", aa.substring(2));
 		
+		Map<String, Object> test = Maps.newHashMap();
+		test.put("adsf", "sdf");
+		test.put("aa", "sss");
+		test.put("123aa", "sss");
+		test.put("1234aa", "sss");
+		Set<String> set = Sets.newHashSet("aa", "lk", "1234aa");
+		test.keySet().retainAll(set);
+		System.out.println(test);
+
 		String a = (String) test.get("a");
 		Boolean b = (Boolean) test.get("b");
-		boolean c =b;
-		System.out.print(c);
+		/*
+		 * boolean c =b;
+		 * System.out.print(c);
+		 */
 	}
+	
+	
 
 }

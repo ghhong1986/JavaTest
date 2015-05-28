@@ -44,8 +44,6 @@ public class CuratorTools {
 		CuratorFramework zclient = builder.build();
 		zkclient = zclient;
 		zkclient.start();// 放在这前面执行
-		
-
 	}
 
 	public static void main(String[] args) throws Exception {

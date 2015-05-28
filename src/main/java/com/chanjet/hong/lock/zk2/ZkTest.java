@@ -1,7 +1,6 @@
-package com.chanjet.hong.zk;
+package com.chanjet.hong.lock.zk2;
 
 import com.chanjet.hong.zk.concurrent.ConcurrentTest;
-import com.chanjet.hong.zk.concurrent.DistributedLock;
 import com.chanjet.hong.zk.concurrent.ConcurrentTest.ConcurrentTask;
 
 public class ZkTest {

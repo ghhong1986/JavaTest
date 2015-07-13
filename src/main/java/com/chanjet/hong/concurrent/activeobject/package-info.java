@@ -8,7 +8,7 @@
 http://www.infoq.com/cn/articles/Java-multithreaded-programming-mode-active-object-part1
 http://www.infoq.com/cn/articles/Java-multithreaded-programming-mode-active-object-part2
  *</p>
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  * @Email honggh@chanjet.com 
  * @date 2014年11月29日 上午11:45:25
  *

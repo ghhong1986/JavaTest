@@ -24,7 +24,7 @@ import com.google.common.collect.Maps;
  * <p>
  * 集合类相关代码测试
  *</p>
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  * @Email honggh@chanjet.com 
  * @date 2014年12月27日 上午11:14:38
  *

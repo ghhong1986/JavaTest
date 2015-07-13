@@ -19,7 +19,7 @@ package com.chanjet.hong.zk.curator;
  * WEB服务
  * </p>
  * 
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  * @Email honggh@chanjet.com
  * @date 2014年12月25日 下午2:29:14
  * 

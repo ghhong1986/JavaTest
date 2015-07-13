@@ -13,7 +13,7 @@ package com.chanjet.hong.zk.curator;
  * 离开栅栏。 双栅栏类是DistributedDoubleBarrier。 
  * </p>
  * 
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  * @Email honggh@chanjet.com
  * @date 2014年12月25日 下午2:10:07
  * 

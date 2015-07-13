@@ -23,7 +23,7 @@ import static org.powermock.api.easymock.PowerMock.*;
  * 由于是静态方法，需要显示调用mockStatic方法来完成mock操作。
  * </p>
  * 
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  */
 
 @RunWith(PowerMockRunner.class)

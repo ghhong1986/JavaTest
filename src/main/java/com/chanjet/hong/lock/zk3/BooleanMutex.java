@@ -38,7 +38,7 @@ http://agapple.iteye.com/blog/1183972
   基于jdk 1.5之后的concurrent的AQS，实现了一个自己的互斥信号控制。 A.Q.S的可以看我的另一篇文章：jdk中cocurrent下的AbstractQueuedSynchronizer理解记录
  * </p>
  * 
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  */
 public class BooleanMutex {
 

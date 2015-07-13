@@ -20,7 +20,7 @@ import org.apache.curator.retry.ExponentialBackoffRetry;
  * curator分布式锁
  * </p>
  * 
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  * @Email honggh@chanjet.com
  * @date 2014年11月10日 上午9:20:40
  * 

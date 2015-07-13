@@ -16,7 +16,7 @@ import net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombi
  * 汉字转拼音jar包测试
  * </p>
  * 
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  * @Email honggh@chanjet.com
  * @date 2014年12月18日 下午4:06:24
  * 

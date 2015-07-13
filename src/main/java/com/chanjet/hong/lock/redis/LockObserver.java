@@ -17,7 +17,7 @@ import com.chanjet.hong.lock.LockListener;
  * TODO (用一句话描述该文件做什么)
  * </p>
  * 
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  */
 public class LockObserver extends AbstractLockObserver implements Runnable {
 //	private CacheRedisClient client;

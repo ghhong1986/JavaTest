@@ -6,6 +6,6 @@
  * TODO (用一句话描述该类型做什么)
  * </p>
  * 
- * @author 洪光华 2015年5月12日</br>
+ * @author 洪光华 2015年5月12日<br/>
  */
 package com.chanjet.hong.lock.zk3;

@@ -18,7 +18,7 @@
       采用不同的锁来实现同步，然后查看结果。
  * </p>
  * 
- * @author 洪光华 2015年5月11日</br>
+ * @author 洪光华 2015年5月11日<br/>
  */
 package com.chanjet.hong.concurrent.reenlock;
 

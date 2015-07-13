@@ -23,7 +23,7 @@ import redis.clients.jedis.exceptions.JedisConnectionException;
  * TODO (用一句话描述该文件做什么)
  * </p>
  * 
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  * @Email honggh@chanjet.com
  * @date 2014年12月30日 下午12:03:01
  * 

@@ -12,7 +12,7 @@ import net.jcip.annotations.ThreadSafe;
  * TODO (用一句话描述该文件做什么)
  * </p>
  * 
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  * @Email honggh@chanjet.com
  * @date Dec 24, 2014 7:19:39 PM
  * 

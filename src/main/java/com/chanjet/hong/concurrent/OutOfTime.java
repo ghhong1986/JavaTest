@@ -13,7 +13,7 @@ import static java.util.concurrent.TimeUnit.*;
  * TODO (用一句话描述该文件做什么)
  * </p>
  * 
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  * @Email honggh@chanjet.com
  * @date 2014年12月27日 下午1:46:14
  * 

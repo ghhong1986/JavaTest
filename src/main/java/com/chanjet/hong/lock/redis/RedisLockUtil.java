@@ -14,7 +14,7 @@ import org.apache.log4j.Logger;
  * <p>
  * TODO (用一句话描述该文件做什么)   
  *</p>
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  */
 public class RedisLockUtil {
 	private static final Logger logger =  Logger.getLogger(RedisLockUtil.class);

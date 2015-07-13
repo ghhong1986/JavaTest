@@ -27,7 +27,7 @@ http://blog.csdn.net/minword/article/details/20565867
    包括Executor、Executors、ExecutorService、CompletionService、Future、Callable等
  * </p>
  * 
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  * @Email honggh@chanjet.com
  * @date 2014年11月29日 下午2:25:26
  * 

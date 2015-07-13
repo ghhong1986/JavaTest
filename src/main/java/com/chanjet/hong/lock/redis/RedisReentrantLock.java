@@ -17,7 +17,7 @@ import com.chanjet.hong.lock.LockListener;
  *  分布式锁本地代理类
  * </p>
  * 
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  */
 public class RedisReentrantLock implements Delayed {
 	private static final Logger logger = Logger.getLogger(RedisReentrantLock.class);

@@ -12,6 +12,7 @@ import org.apache.tika.parser.AutoDetectParser;
 import org.apache.tika.parser.ParseContext;
 import org.apache.tika.parser.Parser;
 import org.apache.tika.sax.BodyContentHandler;
+import org.apache.tika.sax.ToXMLContentHandler;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
 
@@ -51,5 +52,22 @@ public class TikaBasicUtil {
 			}
 		}
 		return "No Contents";
+	}
+	
+	
+	public static String extractToXml(String filePath) throws IOException, SAXException, TikaException{
+        ContentHandler handler = new ToXMLContentHandler();
+//        InputStream stream = TikaBasicUtil.class.getResourceAsStream(filePath);
+        InputStream  stream  = new FileInputStream(new File(filePath));
+        AutoDetectParser parser = new AutoDetectParser();
+        Metadata metadata = new Metadata();
+        metadata.add("filename", "王文京的一封信：从duang的那一声起");
+        metadata.add("Author", "王文京");
+        try {
+            parser.parse(stream, handler, metadata);
+            return handler.toString();
+        } finally {
+            stream.close();
+        }
 	}
 }

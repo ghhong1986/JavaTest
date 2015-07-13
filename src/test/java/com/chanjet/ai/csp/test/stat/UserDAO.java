@@ -10,7 +10,7 @@ import com.chanjet.ai.csp.test.User;
  * <p>
  * TODO (用一句话描述该文件做什么)   
  *</p>
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  */
 public final class UserDAO {
 	public final static User getUser(String id) {

@@ -27,7 +27,7 @@ import org.junit.rules.ExpectedException;
  * <p>
  *  集合操作的测试用例
  *</p>
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  * @Email honggh@chanjet.com 
  * @date 2015年2月14日 下午2:37:15
  *

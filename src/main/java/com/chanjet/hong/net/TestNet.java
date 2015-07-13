@@ -19,7 +19,7 @@ import org.junit.Test;
  * 关于网络连接相关测试
  * </p>
  * 
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  * @Email honggh@chanjet.com
  * @date 2014年12月25日 下午8:05:42
  * 

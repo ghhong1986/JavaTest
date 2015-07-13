@@ -28,7 +28,7 @@ import com.google.common.collect.Lists;
  * 计数器
  * </p>
  * 
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  * @Email honggh@chanjet.com
  * @date 2014年12月25日 上午11:59:32
  * 

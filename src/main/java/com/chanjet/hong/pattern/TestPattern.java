@@ -23,7 +23,7 @@ import com.google.common.base.Joiner;
  * <p>
  * </p>
  * 
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  * @Email honggh@chanjet.com
  * @date 2014年11月12日 下午1:18:53
  * 

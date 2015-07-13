@@ -19,7 +19,7 @@ import com.google.common.collect.Lists;
  * TODO (用一句话描述该文件做什么)
  * </p>
  * 
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  * @Email honggh@chanjet.com
  * @date 2014年11月28日 下午3:39:51
  * 

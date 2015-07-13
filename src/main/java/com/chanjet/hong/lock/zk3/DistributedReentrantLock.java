@@ -23,7 +23,7 @@ import org.apache.zookeeper.KeeperException;
 如果先释放ReentrantLock，假如这个JVM ReentrantLock竞争度比较高，一直其他JVM的锁竞争容易
 被饿死。
  *</p>
- * @author 洪光华 </br>
+ * @author 洪光华 <br/>
  */
 public class DistributedReentrantLock extends DistributedLock{
 

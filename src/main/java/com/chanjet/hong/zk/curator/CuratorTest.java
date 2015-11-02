@@ -99,6 +99,7 @@ public class CuratorTest {
 		String path = "zk/test";
 		ZKWatch watch = new ZKWatch(path);
 		byte[] buffer = zkTools.getData().usingWatcher(watch).forPath(path);
+		
 		System.out.println(new String(buffer, charset));
 		// 添加session过期的监控
 		addReconnectionWatcher(path, ZookeeperWatcherType.GET_DATA, watch);

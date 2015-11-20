@@ -8,4 +8,7 @@ public class AnnotatedSubClass extends AnnotatedSuperClass
         
     }
     
+    
+    
+    
 }

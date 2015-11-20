@@ -7,6 +7,8 @@ package com.chanjet.hong.JavaTest;
 import static org.junit.Assert.*;
 
 import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Vector;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
@@ -52,24 +54,52 @@ public class TestCollections {
 		vect.add(3);
 		vect.add(9);
 		vect.add(5);
-		Iterator<Integer> iter =vect.iterator();
+		Iterator<Integer> iter = vect.iterator();
 		while (iter.hasNext()) {
 			System.out.println(iter.next());
 			iter.remove();
-                }
+		}
 		System.out.println("again");
-		 iter =vect.iterator();
+		iter = vect.iterator();
 		while (iter.hasNext()) {
 			System.out.println(iter.next());
 			iter.remove();
 		}
 
- 	}
+	}
+	
+	@Test
+	public void testMapRemove(){
+		Map<String,Integer> map = Maps.newLinkedHashMap();
+		map.put("a1", 1);
+		map.put("a2", 2);
+		map.put("a3", 3);
+		map.put("a4", 4);
+		map.put("a5", 5);
+		map.put("a6", 6);
+		int count = 0;
+		Iterator<Entry<String, Integer>> it = map.entrySet().iterator();  
+		while(it.hasNext()){
+			Entry<String, Integer> val  = it.next();
+			if(count++ >= 3){
+					it.remove();
+			}
+		}
+		count = 0;
+//		for(Entry<String, Integer> val : map.entrySet()){
+//			if(count++ > 3){
+//				map.remove(val.getKey());
+//			}
+//		}
+		System.out.println(map);
+	}
 	
 	public void testList(){
 		CopyOnWriteArrayList  llst = new CopyOnWriteArrayList<Integer>();
 		ConcurrentMap<Integer, String> map = Maps.newConcurrentMap();
 		map.putIfAbsent(89, "");
 	}
+	
+	
 
 }

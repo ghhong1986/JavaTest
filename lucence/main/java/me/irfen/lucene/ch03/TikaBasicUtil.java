@@ -1,5 +1,5 @@
 package me.irfen.lucene.ch03;
-
+/*
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -70,4 +70,4 @@ public class TikaBasicUtil {
             stream.close();
         }
 	}
-}
+}*/

@@ -205,7 +205,7 @@
 			<version>${lucene.version}</version>
 		</dependency>
 
-		<dependency>
+	<!-- 	<dependency>
 			<groupId>org.apache.tika</groupId>
 			<artifactId>tika-core</artifactId>
 			<version>${tika.version}</version>
@@ -224,7 +224,8 @@
 			<groupId>org.apache.tika</groupId>
 			<artifactId>tika-app</artifactId>
 			<version>${tika.version}</version>
-		</dependency>
+		</dependency> -->
+		
 		<dependency>
 			<groupId>org.wltea.ik-analyzer</groupId>
 			<artifactId>ik-analyzer</artifactId>
@@ -233,24 +234,24 @@
 		<!-- <dependency> <groupId>IKAnalyzer</groupId> <artifactId>IKAnalyzer</artifactId> 
 			<version>2012FF_hf1</version> </dependency> -->
 			
-			<dependency>
+<!-- 			<dependency>
   <groupId>org.springframework.data</groupId>
   <artifactId>spring-data-solr</artifactId>
   <version>1.4.2.RELEASE</version>
 </dependency>
-
-<dependency>
+ -->
+<!-- <dependency>
   <groupId>com.indoqa.solr</groupId>
   <artifactId>solr-spring-client</artifactId>
   <version>5.1.0</version>
-</dependency>
+</dependency> -->
 
-	<dependency>
+<!-- 	<dependency>
 		<groupId>com.chanjet.ai</groupId>
 		<artifactId>chanjet-ai-client</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</dependency>
-
+ -->
     <dependency>
         <groupId>org.projectlombok</groupId>
         <artifactId>lombok</artifactId>
@@ -270,6 +271,35 @@
   <version>1.2</version>
 </dependency>
 
+<!-- <dependency>
+  <groupId>com.googlecode.disruptor</groupId>
+  <artifactId>disruptor</artifactId>
+  <version>2.10.4</version>
+</dependency> -->
+
+	<dependency>
+	  <groupId>com.lmax</groupId>
+	  <artifactId>disruptor</artifactId>
+	  <version>3.3.2</version>
+	</dependency>
+
+<dependency>
+  <groupId>org.apache.httpcomponents</groupId>
+  <artifactId>httpclient</artifactId>
+  <version>4.5</version>
+</dependency>
+
+<dependency>
+  <groupId>org.apache.solr</groupId>
+  <artifactId>solr-solrj</artifactId>
+  <version>5.4.0</version>
+</dependency>
+
+<!-- <dependency>
+  <groupId>org.apache.solr</groupId>
+  <artifactId>solr-core</artifactId>
+  <version>5.4.0</version>
+</dependency> -->
 
 	</dependencies>
 

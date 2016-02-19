@@ -1,5 +1,5 @@
 package test;
-
+/*
 import com.chanjet.ai.client.AIClientException;
 import com.chanjet.ai.client.search.SearchException;
 import com.chanjet.ai.client.search.SearchParam;
@@ -24,4 +24,4 @@ public class SearchServiceImplTest {
         SearchResult res = search.search(param);
         System.out.println(res.getNumFound());
     }
-}
+}*/

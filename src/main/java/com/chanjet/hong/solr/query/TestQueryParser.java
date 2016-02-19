@@ -1,5 +1,6 @@
 package com.chanjet.hong.solr.query;
 
+/*
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.solr.core.DefaultQueryParser;
@@ -25,10 +26,10 @@ public class TestQueryParser {
         query.setDefaultOperator(Operator.OR);
         parse.constructSolrQuery(query);
         System.out.println(query.toString());
-        /*
+        
          * TermsQueryParser tqp = new TermsQueryParser(); tqp.constructSolrQuery(query);
          * System.out.println(tqp.getQueryString(query));
-         */
+         
       //  query.getFilterQueries()
     }
-}
+}*/

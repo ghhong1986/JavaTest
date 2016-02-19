@@ -18,8 +18,8 @@ public class EmployeeTest {
     @Test
     public void test() {
         Employee  emp = new  Employee();
-        emp.setEmployed(false);
-        emp.setName("asd");
+//        emp.setEmployed(false);
+//        emp.setName("asd");
         System.out.println(emp);
         
     }

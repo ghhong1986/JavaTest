@@ -4,6 +4,7 @@
 package com.chanjet.ai.csp.test;
 
 import static org.easymock.EasyMock.*;
+import static org.joor.Reflect.*;
 import static org.junit.Assert.*;
 
 import org.junit.AfterClass;
@@ -72,6 +73,12 @@ public class UserTest {
 	@Test
 	public void testBigTha你(){
 		assertThat(12, greaterThan(10));
+	}
+	@Test
+	public void testUser(){
+		User user = new User("123", "789");
+		String id = on(user).call("getId").get();
+		System.out.println(id);
 	}
 
 }

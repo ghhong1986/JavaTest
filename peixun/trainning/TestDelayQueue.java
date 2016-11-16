@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
  * </p>
  * 
  * @author 洪光华 </br>
- * @Email honggh@chanjet.com
+ * @Email ghhong1986
  * @date 2016年2月25日 下午2:13:38
  */
 

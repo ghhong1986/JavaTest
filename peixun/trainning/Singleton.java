@@ -13,7 +13,7 @@ package trainning;
  * TODO 
  *</p>
  * @author 洪光华 </br>
- * @Email honggh@chanjet.com 
+ * @Email ghhong1986 
  * @date 2016年2月27日 上午11:26:47
  */
 public enum Singleton {

@@ -1,11 +1,11 @@
 package test;
 /*
-import com.chanjet.ai.client.AIClientException;
-import com.chanjet.ai.client.search.SearchException;
-import com.chanjet.ai.client.search.SearchParam;
-import com.chanjet.ai.client.search.SearchResult;
-import com.chanjet.ai.client.search.SearchService;
-import com.chanjet.ai.client.search.ServiceFactory;
+import com.abc.ai.client.AIClientException;
+import com.abc.ai.client.search.SearchException;
+import com.abc.ai.client.search.SearchParam;
+import com.abc.ai.client.search.SearchResult;
+import com.abc.ai.client.search.SearchService;
+import com.abc.ai.client.search.ServiceFactory;
 import com.google.common.collect.Lists;
 
 public class SearchServiceImplTest {

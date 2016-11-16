@@ -1,5 +1,0 @@
-package com.chanjet.hong.lombok;
-
-public class SentientBeing {
-
-}
